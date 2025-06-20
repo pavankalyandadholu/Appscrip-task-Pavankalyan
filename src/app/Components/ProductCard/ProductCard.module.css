@@ -1,0 +1,80 @@
+.ProductCardContainer{
+    width: 300;
+height: 462;
+
+position: relative;
+
+}
+.ProductNew{
+    position: absolute;
+top: 0;
+left: 0;
+width: 130;
+height: 40;
+background-color: #c3c2cd;
+padding: 0px 6px;
+
+
+}
+.ProductNew h2{
+    font-family: Simplon Norm;
+font-weight: 700;
+font-size: 14px;
+line-height: 40px;
+letter-spacing: 0px;
+text-transform: uppercase;
+color: #000000;
+}
+.ProductCardContainer:hover{
+  
+cursor: pointer;
+}
+.ProductCardImage{
+    width: 300;
+height: 399;
+top: 1146px;
+left: 412px;
+
+}
+.ProductCardImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.ProductCardDetails{
+    width: 300;
+height: 47;
+top: 1561px;
+left: 412px;
+gap: 8px;
+
+}
+.ProductCardDetails h2{
+    margin-top: 5px;
+}
+.ProductCardDetails div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:2px 5px;
+}
+.ProductCardDetails div p{
+    font-family: Simplon Norm;
+font-weight: 400;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0px;
+
+color: #888792;
+}
+.ProductCardDetails div p span{
+    text-decoration: underline;
+text-decoration-style: solid;
+text-decoration-offset: 0%;
+text-decoration-thickness: 0%;
+}
+.ProductCardDetails div img{
+    width: 24;
+height: 24;
+
+}

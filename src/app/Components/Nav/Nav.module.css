@@ -95,21 +95,24 @@ margin-bottom: -2px;
 .navBar{
     display: flex;
     flex-direction: column;
-    max-width: 1440;
+    width: 100vw;
+    
 height: 188;
 top: 32px;
 border-bottom-width: 1px;
 background: #FFFFFF;
 border-bottom: 1px solid #E5E5E5;
 color: #000000;
-padding: 20px
+padding: 20px;
+padding-bottom: 0px;
 }
 .navBarLogo{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
-    text-align: center;
+    text-align: center; 
+    padding: 0px 40px;
 }
 .navBarLogoText{
     width: 107;

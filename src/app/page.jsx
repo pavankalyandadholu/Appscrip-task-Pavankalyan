@@ -1,4 +1,6 @@
 import Nav from "./Components/Nav/Nav";
+import OurProducts from "./Components/Our-Products/OurProducts";
+import Products from "./Components/Products/Products";
 import styles from "./page.module.css";
 
 
@@ -12,7 +14,11 @@ export default async function Home() {
     <div className={styles.page}>
       <div>
         <Nav/>
-        {/* {products?.length>0 && products.map(p=><h1 key={p.id}>{p.title}</h1>)} */}
+        <div className={styles.container}>
+        <OurProducts/>
+        <Products products={products}/>
+        </div>
+       
       </div>
     </div>
   );

@@ -1,0 +1,21 @@
+.ProductsContainer{
+    display:flex;
+    margin-top: 70px;
+
+}
+.ProductsFiltersContainer{
+    width: 300;
+height: 846;
+top: 652px;
+left: 96px;
+gap: 24px;
+
+}
+.ProductsListContainer{
+  
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+padding: 10px;
+ 
+}

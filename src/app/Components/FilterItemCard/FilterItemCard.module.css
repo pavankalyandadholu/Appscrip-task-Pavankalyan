@@ -1,0 +1,47 @@
+.FilterItemCardContainer{
+    width: 300;
+
+padding: 12px 6px;
+transition: all 0.3s ease-out;
+border-bottom: 1px solid #e5e5e5;
+
+}
+.FilterItemCardTitleContainer{
+    width: 300;
+
+justify-content: space-between;
+display: flex;
+align-items: center;
+padding: 10px;
+}
+.FilterItemCardTitle{
+
+height: 22;
+font-family: Simplon Norm;
+font-weight: 700;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0px;
+text-transform: uppercase;
+color: #252020;
+margin-right: 3px;
+}
+.FilterItemCardTitleContainer img{
+    width: 16;
+height: 16;
+top: 16px;
+left: 16px;
+cursor: pointer;
+   
+}
+.FilterItemCardSubTitle{
+    width: 300;
+height: 22;
+font-family: Simplon Norm;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0px;
+color: #252020;
+padding-left: 10px;
+}
