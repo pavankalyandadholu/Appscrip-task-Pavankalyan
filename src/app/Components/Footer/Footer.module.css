@@ -41,8 +41,8 @@ align-items: center;
 margin-top: 10px;
 }
 .subscribeInput input{
-    width: 384;
-height: 47;
+    width: 384px;
+height: 47px;
 gap: 8px;
 padding-top: 14px;
 padding-right: 24px;
@@ -51,8 +51,8 @@ padding-left: 24px;
 background-color: #FFFFFF;
 }
 .subscribeInput button{
-    width: 184;
-height: 48;
+    width: 184px;
+height: 48px;
 font-family: Simplon Norm;
 font-weight: 500;
 font-size: 18px;
@@ -124,8 +124,8 @@ margin-top: 10px;
     margin-top: 0px;
 }
 .currency img{
-width: 24;
-height: 24;
+width: 24px;
+height: 24px;
 border-radius: 24px;
 background: white;
 }
@@ -185,8 +185,8 @@ margin-top: 7px;
     margin-top: 15px;;
  }
  .followUs div{
-    width: 32;
-    height: 32;
+    width: 32px;
+    height: 32px;
 
 border-radius: 50%;
 border: 1px solid white;
@@ -197,8 +197,8 @@ display: flex;
 
  }
  .followUs div img{
-    width: 20;
-height: 20;
+    width: 20px;
+height: 20px;
 background-color:  white;
 overflow: hidden;
 border-radius: 50%;
@@ -222,8 +222,8 @@ vertical-align: middle;
     margin-top: 15px;;
  }
  .payments img{
-   width: 56;
-height: 35;
+   width: 56px;
+height: 35px;
     object-fit: contain;
     border-radius: 5px;
     background-color: white; 
@@ -290,8 +290,8 @@ margin-top: 10px;
 margin-bottom:20px;
 }
 .subscribeInput input{
-    width: 384;
-height: 47;
+    width: 384px;
+height: 47px;
 gap: 8px;
 padding-top: 14px;
 padding-right: 24px;
@@ -300,8 +300,8 @@ padding-left: 24px;
 background-color: #FFFFFF;
 }
 .subscribeInput button{
-    width: 184;
-height: 48;
+    width: 184px;
+height: 48px;
 font-family: Simplon Norm;
 font-weight: 500;
 font-size: 18px;
@@ -377,8 +377,8 @@ margin-top: 10px;
     margin-top: 0px;
 }
 .currency img{
-width: 24;
-height: 24;
+width: 24px;
+height: 24px;
 border-radius: 24px;
 background: white;
 }
@@ -436,8 +436,8 @@ margin-top: 7px;;
  }
 
  .followUs div img{
-    width: 20;
-height: 20;
+    width: 20px;
+height: 20px;
 background-color:  white;
 overflow: hidden;
 border-radius: 50%;
@@ -461,8 +461,8 @@ vertical-align: middle;
     margin-top: 15px;;
  }
  .payments img{
-   width: 56;
-height: 35;
+   width: 56px;
+height: 35px;
     object-fit: contain;
     border-radius: 5px;
     background-color: white; 

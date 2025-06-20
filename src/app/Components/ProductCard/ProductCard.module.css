@@ -1,6 +1,6 @@
 .ProductCardContainer{
-    width: 300;
-height: 462;
+    width: 300px;
+height: 462px;
 
 position: relative;
 
@@ -10,8 +10,8 @@ position: relative;
     position: absolute;
 top: 0;
 left: 0;
-width: 130;
-height: 40;
+width: 130px;
+height: 40px;
 background-color: #c3c2cd;
 padding: 0px 6px;
 
@@ -31,8 +31,8 @@ color: #000000;
 cursor: pointer;
 }
 .ProductCardImage{
-    width: 300;
-height: 399;
+    width: 300px;
+height: 399px;
 top: 1146px;
 left: 412px;
 
@@ -44,8 +44,8 @@ left: 412px;
     overflow: hidden;
 }
 .ProductCardDetails{
-    width: 300;
-height: 47;
+    width: 300px;
+height: 47px;
 top: 1561px;
 left: 412px;
 gap: 8px;
@@ -76,7 +76,7 @@ text-decoration-offset: 0%;
 text-decoration-thickness: 0%;
 }
 .ProductCardDetails div img{
-    width: 24;
-height: 24;
+    width: 24px;
+height: 24px;
 
 }

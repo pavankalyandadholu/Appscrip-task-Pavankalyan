@@ -1,6 +1,6 @@
 .ourProductsContainer{
     
-height: 168;
+height: 168px;
 top: 292px;
 left: 360px;
 margin: auto;
@@ -8,7 +8,7 @@ margin-top: 40px;
 margin-bottom: 40px;
 }
 .ourProductsTitle{
-height: 72;
+height: 72px;
 top: 292px;
 left: 388px;
 margin: auto;
@@ -26,7 +26,7 @@ color: #252020;
 
 }
 .ourProductsPara{
-height: 80;
+height: 80px;
 top: 380px;
 left: 360px;
 
@@ -45,8 +45,8 @@ color: #252020;
 @media (max-width: 900px) {
    .ourProductsContainer{
     
-   max-width: 721;
-height: 168;
+   max-width: 721px;
+height: 168px;
 top: 292px;
 left: 360px;
 margin: auto;
@@ -54,8 +54,8 @@ margin-top: 40px;
 margin-bottom: 40px;
 }
 .ourProductsTitle{
-    max-width:  666;
-height: 72;
+    max-width:  666px;
+height: 72px;
 top: 292px;
 left: 388px;
 margin: auto;
@@ -73,8 +73,8 @@ color: #252020;
 
 }
 .ourProductsPara{
-    max-width: 721;
-height: 80;
+    max-width: 721px;
+height: 80px;
 top: 380px;
 left: 360px;
 
