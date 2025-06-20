@@ -47,6 +47,9 @@ const Footer = () => {
                 {/* Meta mouse */}
         <div className={styles.mettaMuseContainer}>
             <h1>mettā muse</h1>
+            <div className={styles.mettaMuseArrow}>
+                <img src="down-arrow.png" alt="mettā muse" />
+            </div>
             <div className={styles.mettaMuseLinks}>
                 <p>About Us</p>
                 <p>Stories </p>
@@ -58,6 +61,9 @@ const Footer = () => {
         </div>
         <div className={styles.mettaMuseContainer}>
             <h1>Quick Links</h1>
+            <div className={styles.mettaMuseArrow}>
+                <img src="down-arrow.png" alt="mettā muse" />
+            </div>
             <div className={styles.mettaMuseLinks}>
                 <p>Orders & Shipping  </p>
                 <p>Join/Login as a Seller </p>
@@ -74,7 +80,9 @@ const Footer = () => {
         
         <div className={styles.followUsContainer}>
             <h1>Follow Us</h1>
-            
+            <div className={styles.mettaMuseArrow}>
+                <img src="down-arrow.png" alt="mettā muse" />
+            </div>
                 <div className={styles.followUs}>
                     <div>
                        <img src="instagram.png" alt="instagram" /> 

@@ -10,10 +10,7 @@ max-width: 1440;
 height: 32;
 display: flex;
 justify-content: space-between;
-padding-top: 8px;
-padding-right: 274px;
-padding-bottom: 8px;
-padding-left: 274px;
+padding: 8px 27px;
 background: #000000;
 
 }
@@ -23,8 +20,7 @@ background: #000000;
     gap: 10px;
     width: 138px;
     height: 16px;
-    display: flex
-;
+    display: flex;
 
 }
 .navTopItemText{
@@ -114,11 +110,9 @@ padding-bottom: 0px;
     text-align: center; 
     padding: 0px 40px;
 }
-.navBarLogoText{
-    width: 107;
+.navBarLogoText h1{
 height: 44;
-top: 36px;
-left: 667px;
+
 font-family: Inter;
 font-weight: 800;
 font-size: 36px;
@@ -205,4 +199,135 @@ line-height: 100%;
 letter-spacing: 1px;
 vertical-align: middle;
 
+}
+.navBarLinksSmall{
+    display: none;
+}
+
+@media (max-width: 900px) {
+
+
+
+
+/* Nav Bar   */
+.navBar{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    
+height: 188;
+top: 32px;
+border-bottom-width: 1px;
+background: #FFFFFF;
+border-bottom: 1px solid #E5E5E5;
+color: #000000;
+padding: 20px;
+padding-bottom: 0px;
+}
+.navBarLogo{
+ 
+    padding: 0px 10px;
+}
+.navBarLogoText h1{
+    
+height: 44;
+top: 36px;
+font-family: Inter;
+font-weight: 800;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: 1px;
+margin: 10px auto;
+
+
+}
+.navBarLogoIcons{
+ width: 244;
+height: 24;
+top: 46px;
+left: 1100px;
+gap: 24px;
+display: flex;
+align-items: center;
+
+}
+.navBarLogoIcons img{
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.navBarLogoIconsLanguage{
+    width: 52;
+height: 16;
+gap: 5px;
+display: flex;
+align-items: top;
+margin-bottom: 3px;}
+.navBarLogoIconsLanguageText{
+   width: 31;
+height: 11;
+
+font-weight: 700;
+font-size: 16px;
+leading-trim: Cap height;
+line-height: 100%;
+letter-spacing: 1px;
+vertical-align: middle;
+color: #252020;
+ 
+}
+.navBarLogoIconsLanguageIcon:hover{
+    cursor: pointer;
+    background: #F2F2F2;
+    border-radius: 4px;
+    padding: 2px;
+   
+}
+.navBarLogoIconsLanguageIcon{
+    width: 16;
+height: 16;
+margin-left: 2px;
+}
+.navBarLogoIconsLanguageIcon img{
+    width: 16px;
+    height: 16px;
+    object-fit: cover;
+    
+}
+
+/* Nav Links */
+.navBarLinks{
+    display: none;
+
+}
+
+.navBarLinksSmall{
+
+height: 24;
+top: 140px;
+left: 402px;
+gap: 64px;
+margin-top: 20px;
+display: flex;
+justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.navBarLinksSmall div{
+    border: 1px solid #E5E5E5;
+    width: 1px;
+    height: 80px;
+}
+.navBarLinksSmall h3{
+font-family: Simplon Norm;
+font-weight: 700;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 1px;
+vertical-align: middle;
+
+}
+
+ 
 }

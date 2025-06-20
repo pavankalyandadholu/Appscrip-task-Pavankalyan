@@ -2,6 +2,9 @@ import styles from './Filters.module.css';
 const Filters = () => {
     return (
         <div className={styles.filtersContainer}>
+            <div className={styles.filtersHeader}>
+                <h1>Filters</h1>
+            </div>
             <div className={styles.filtersItemsCount}>
                 <h2>3425 Items</h2>
             </div>

@@ -17,7 +17,7 @@ const Nav = () => {
                     <div>
                         <img src="Logo.png" alt="" />
                     </div>
-                    <div className={styles.navBarLogoText}>LOGO</div>
+                    <div className={styles.navBarLogoText}><h1>LOGO</h1></div>
                     <div className={styles.navBarLogoIcons}>
                         <div>
                             <img src="search-normal.png" alt="" />
@@ -44,9 +44,11 @@ const Nav = () => {
                 </div>
                 {/* Nav Links */}
                 <div className={styles.navBarLinks}>
+                    
                     <Link href={'/'}>
                     <h3>Shop</h3>
                     </Link>
+
                     <Link href={'/'}>
                         <h3>Skills</h3>
                     </Link>
@@ -59,6 +61,19 @@ const Nav = () => {
                     <Link href={'/'}>
                         <h3>Contact US</h3>
                     </Link>
+                    
+                </div>
+                <div className={styles.navBarLinksSmall}>
+                    
+                    <Link href={'/'}>
+                    <h3>Home</h3>
+                    </Link>
+                    <div></div>
+                    <Link href={'/'}>
+                    <h3>Shop</h3>
+                    </Link>
+
+                   
                     
                 </div>
             </nav>
