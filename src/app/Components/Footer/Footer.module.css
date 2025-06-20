@@ -1,0 +1,246 @@
+.footerContainer{
+    padding: 30px 50px;
+    margin-top: 20px;
+    max-width: 1440px;
+}
+.subscribeContactContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    max-width: 1248.0000000000048px;
+ 
+}
+
+.subscribeText{
+    margin-bottom: 30px;
+    
+    padding-top: 0px;
+}
+.subscribeText h1{
+margin-bottom: 20px;
+font-family: Simplon Norm;
+font-weight: 700;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: uppercase;
+
+}
+.subscribeText p{
+    font-family: Simplon Norm;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0px;
+
+}
+.subscribeInput{
+display: flex;
+align-items: center;
+margin-top: 10px;
+}
+.subscribeInput input{
+    width: 384;
+height: 47;
+gap: 8px;
+padding-top: 14px;
+padding-right: 24px;
+padding-bottom: 14px;
+padding-left: 24px;
+background-color: #FFFFFF;
+}
+.subscribeInput button{
+    width: 184;
+height: 48;
+font-family: Simplon Norm;
+font-weight: 500;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: uppercase;
+margin-left: 5px;
+padding: 5px 15px;
+}
+/* contact us and currency */
+.contactCurrencyContainer{
+     margin-left: 25px;
+     
+}
+.contactUsContainer{
+   
+}
+.contactUsContainer h1{
+    font-family: Simplon Norm;
+font-weight: 700;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: uppercase;
+padding-bottom: 10px;;
+
+
+}
+.contactUsContainer p{
+    font-family: Simplon Norm;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0px;
+margin-bottom: 7px;
+
+}
+.currencyContainer{
+
+}
+.currencyContainer h1{
+  font-family: Simplon Norm;
+font-weight: 700;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: uppercase;
+margin-top: 20px;
+  margin-bottom: 10px;
+}
+.currencyContainer p{
+    font-family: Simplon Norm;
+font-weight: 400;
+font-size: 12px;
+line-height: 100%;
+letter-spacing: 0px;
+margin-top: 10px;
+}
+.currency {
+    display: flex;
+    align-items: center;   
+    justify-content: start;
+    gap: 5px;
+}
+.currency p{
+    margin-top: 0px;
+}
+.currency img{
+width: 24;
+height: 24;
+border-radius: 24px;
+background: white;
+}
+.currency div{
+    width: 4px;
+    height: 4px;
+    background-color: white;
+    transform: rotate(45deg)
+}
+.divider{
+    max-width: 1248.0000000000048px;
+    margin-top: 30px;
+}
+
+/* other links
+ */
+
+ .otherLinksContainer{
+    display:  flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 35px;
+ }
+ .mettaMuseContainer h1{
+    font-family: Simplon Norm;
+font-weight: 700;
+font-size: 24.71px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: middle;
+
+ }
+ .mettaMuseLinks{
+    margin-top: 15px;;
+ }
+ .mettaMuseLinks p{
+font-family: Simplon Norm;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: middle;
+margin-top: 10px;
+ }
+
+ .followUsContainer h1{
+font-family: Simplon Norm;
+font-weight: 700;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: uppercase;
+
+ }
+ .followUs {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;;
+ }
+ .followUs div{
+    width: 32;
+    height: 32;
+
+border-radius: 50%;
+border: 1px solid white;
+display: flex;
+    align-items: center;  
+    justify-content: center;
+
+
+ }
+ .followUs div img{
+    width: 20;
+height: 20;
+background-color:  white;
+overflow: hidden;
+border-radius: 50%;
+object-fit: contain
+ }
+ .paymentsContainer{
+    margin-top: 20px;
+ }
+ .paymentsContainer h1{
+font-family: Simplon Norm;
+font-weight: 700;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: middle;
+
+ }
+ .payments{
+    display: flex;
+    gap: 7px;
+    margin-top: 15px;;
+ }
+ .payments img{
+   width: 56;
+height: 35;
+    object-fit: contain;
+    border-radius: 5px;
+    background-color: white; 
+ }
+
+ .footerBottom{
+    text-align: center;
+    margin-top: 25px;
+ }
+    .footerBottom p{
+        font-family: Simplon Norm;
+font-weight: 400;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0px;
+text-align: center;
+
+    }

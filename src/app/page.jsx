@@ -1,3 +1,4 @@
+import Footer from "./Components/Footer/Footer";
 import Nav from "./Components/Nav/Nav";
 import OurProducts from "./Components/Our-Products/OurProducts";
 import Products from "./Components/Products/Products";
@@ -14,11 +15,12 @@ export default async function Home() {
     <div className={styles.page}>
       <div>
         <Nav/>
+        {/* Products */}
         <div className={styles.container}>
         <OurProducts/>
         <Products products={products}/>
         </div>
-       
+        <Footer/>
       </div>
     </div>
   );
