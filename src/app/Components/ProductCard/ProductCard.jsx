@@ -7,6 +7,11 @@ const ProductCard = ({product}) => {
                     new product
                 </h2>
             </div>}
+           {product.id==2 && <div className={styles.outOfStock}>
+                <h2>
+                out of stock
+                </h2>
+            </div>}
             <div className={styles.ProductCardImage}>
                 <img src={product.image} alt={product.title} />
             </div>
