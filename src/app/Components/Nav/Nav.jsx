@@ -14,6 +14,9 @@ const Nav = () => {
             <nav className={styles.navBar}>
                 {/* Nav Logos */}
                 <div className={styles.navBarLogo}>
+                    <div className={styles.navBarLogoMenu}>
+                        <img src="menu.png" alt="" />
+                    </div>
                     <div>
                         <img src="Logo.png" alt="" />
                     </div>

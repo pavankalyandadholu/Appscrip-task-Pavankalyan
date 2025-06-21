@@ -68,9 +68,7 @@ padding: 5px 15px;
      margin-left: 25px;
      
 }
-.contactUsContainer{
-   
-}
+
 .contactUsContainer h1{
     font-family: Simplon Norm;
 font-weight: 700;
@@ -92,9 +90,7 @@ letter-spacing: 0px;
 margin-bottom: 7px;
 
 }
-.currencyContainer{
 
-}
 .currencyContainer h1{
   font-family: Simplon Norm;
 font-weight: 700;
@@ -248,230 +244,56 @@ text-align: center;
 /* For small screens */
 @media (max-width: 900px) {
 
-
 .subscribeContactContainer{
     display: block;
-
- 
 }
 .subscribeContainer{
     border-bottom: 1px solid white;
     margin-bottom: 10px;
 }
-
-.subscribeText{
-    margin-bottom: 30px;
-    
-    padding-top: 0px;
-}
-.subscribeText h1{
-margin-bottom: 20px;
-font-family: Simplon Norm;
-font-weight: 700;
-font-size: 20px;
-line-height: 100%;
-letter-spacing: 0%;
-vertical-align: middle;
-text-transform: uppercase;
-
-}
-.subscribeText p{
-    font-family: Simplon Norm;
-font-weight: 400;
-font-size: 16px;
-line-height: 100%;
-letter-spacing: 0px;
-
-}
 .subscribeInput{
-display: flex;
-align-items: center;
-margin-top: 10px;
-margin-bottom:20px;
+    margin-bottom:20px;
 }
-.subscribeInput input{
-    width: 384px;
-height: 47px;
-gap: 8px;
-padding-top: 14px;
-padding-right: 24px;
-padding-bottom: 14px;
-padding-left: 24px;
-background-color: #FFFFFF;
-}
-.subscribeInput button{
-    width: 184px;
-height: 48px;
-font-family: Simplon Norm;
-font-weight: 500;
-font-size: 18px;
-line-height: 100%;
-letter-spacing: 0%;
-vertical-align: middle;
-text-transform: uppercase;
-margin-left: 5px;
-padding: 5px 15px;
-}
-/* contact us and currency */
 .contactCurrencyContainer{
-margin-left: 0px;
-     
+    margin-left: 0px;
 }
 .contactUsContainer{
     margin-top: 20px;
     border-bottom: 1px solid white;
     margin-bottom: 20px;
     padding-bottom: 10px;
-   
 }
-.contactUsContainer h1{
-    font-family: Simplon Norm;
-font-weight: 700;
-font-size: 20px;
-line-height: 100%;
-letter-spacing: 0%;
-vertical-align: middle;
-text-transform: uppercase;
-padding-bottom: 10px;;
-
-
-}
-.contactUsContainer p{
-    font-family: Simplon Norm;
-font-weight: 400;
-font-size: 16px;
-line-height: 100%;
-letter-spacing: 0px;
-margin-bottom: 7px;
-
-}
-.currencyContainer{
-
-}
-.currencyContainer h1{
-  font-family: Simplon Norm;
-font-weight: 700;
-font-size: 20px;
-line-height: 100%;
-letter-spacing: 0%;
-vertical-align: middle;
-text-transform: uppercase;
-margin-top: 20px;
-  margin-bottom: 10px;
-}
-.currencyContainer p{
-    font-family: Simplon Norm;
-font-weight: 400;
-font-size: 12px;
-line-height: 100%;
-letter-spacing: 0px;
-margin-top: 10px;
-}
-.currency {
-    display: flex;
-    align-items: center;   
-    justify-content: start;
-    gap: 5px;
-}
-.currency p{
-    margin-top: 0px;
-}
-.currency img{
-width: 24px;
-height: 24px;
-border-radius: 24px;
-background: white;
-}
-.currency div{
-    width: 4px;
-    height: 4px;
-    background-color: white;
-    transform: rotate(45deg)
-}
-.divider{
-    max-width: 1248.0000000000048px;
-    margin-top: 30px;
-}
-
-/* other links
- */
-
- .otherLinksContainer{
+.otherLinksContainer{
     display:  block;
     max-width: 500px;
     margin-top: 35px;
- }
- .mettaMuseContainer{
+}
+.mettaMuseContainer{
     display: flex;
     align-items: center;
     justify-content: space-between;
- }
- .mettaMuseArrow{
-    display: block;
- }
-.mettaMuseArrow img{
-    width: 24px;
-    height: 24px;
-    background-color: white;
-
 }
- .mettaMuseLinks{
-    
+.mettaMuseArrow{
+    display: block;
+}
+.mettaMuseLinks{
     display: none;
- }
-
+}
 .followUsContainer{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
 }
- .followUsContainer h1{
-margin-top: 7px;;
-
- }
- .followUs {
+.followUs {
     display: none;
-  
- }
-
- .followUs div img{
-    width: 20px;
-height: 20px;
-background-color:  white;
-overflow: hidden;
-border-radius: 50%;
-object-fit: contain
- }
- .paymentsContainer{
+}
+.paymentsContainer{
     margin-top: 20px;
- }
- .paymentsContainer h1{
-font-family: Simplon Norm;
-font-weight: 700;
-font-size: 20px;
-line-height: 100%;
-letter-spacing: 0%;
-vertical-align: middle;
-
- }
- .payments{
-    display: flex;
-    gap: 7px;
-    margin-top: 15px;;
- }
- .payments img{
-   width: 56px;
-height: 35px;
-    object-fit: contain;
-    border-radius: 5px;
-    background-color: white; 
- }
-
- .footerBottom{
+}
+.footerBottom{
     text-align: center;
     margin-top: 25px;
- }
+}
     .footerBottom p{
         font-family: Simplon Norm;
 font-weight: 400;

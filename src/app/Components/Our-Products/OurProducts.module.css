@@ -43,51 +43,20 @@ color: #252020;
 }
 
 @media (max-width: 900px) {
-   .ourProductsContainer{
-    
-   max-width: 721px;
-height: 168px;
-top: 292px;
-left: 360px;
-margin: auto;
-margin-top: 40px;
-margin-bottom: 40px;
-}
-.ourProductsTitle{
-    max-width:  666px;
-height: 72px;
-top: 292px;
-left: 388px;
-margin: auto;
-}
-.ourProductsTitle h1{
-   font-family: Simplon Norm;
-font-weight: 400;
-font-size: 40px;
-line-height: 100%;
-letter-spacing: 1px;
-text-align: center;
-vertical-align: middle;
-text-transform: uppercase;
-color: #252020;
-
-}
-.ourProductsPara{
+  .ourProductsContainer {
     max-width: 721px;
-height: 80px;
-top: 380px;
-left: 360px;
-
-}
-.ourProductsPara p{
-    font-family: Simplon Norm;
-font-weight: 400;
-font-size: 20px;
-line-height: 40px;
-letter-spacing: 0px;
-text-align: center;
-color: #252020;
-margin-top: 15px;
-
-}
+  }
+  .ourProductsTitle {
+    max-width: 666px;
+  }
+  .ourProductsTitle h1 {
+    font-size: 40px;
+  }
+  .ourProductsPara {
+    max-width: 721px;
+  }
+  .ourProductsPara p {
+    font-size: 20px;
+    margin-top: 15px;
+  }
 }
