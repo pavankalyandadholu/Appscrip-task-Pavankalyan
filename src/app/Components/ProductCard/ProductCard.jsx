@@ -2,11 +2,11 @@ import styles from './ProductCard.module.css';
 const ProductCard = ({product}) => {
     return (
         <div className={styles.ProductCardContainer}>
-            <div className={styles.ProductNew}>
+           {product.id==1 && <div className={styles.ProductNew}>
                 <h2>
                     new product
                 </h2>
-            </div>
+            </div>}
             <div className={styles.ProductCardImage}>
                 <img src={product.image} alt={product.title} />
             </div>
