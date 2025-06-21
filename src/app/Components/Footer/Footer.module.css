@@ -275,6 +275,22 @@ text-align: center;
 }
 .mettaMuseArrow{
     display: block;
+    padding: 4px;
+    border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    border: 1px solid white;
+    background-color: white;
+    margin-top: 5px;
+}
+.mettaMuseArrow img{
+    width: 16px;
+height: 16px;
+
+transition: all 0.3s ease-out;
+cursor: pointer;
+
 }
 .mettaMuseLinks{
     display: none;

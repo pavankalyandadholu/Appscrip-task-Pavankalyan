@@ -1,3 +1,5 @@
+"use client";
+import { useState } from "react";
 import FilterItemCard from "../FilterItemCard/FilterItemCard";
 import Filters from "../Filters/Filters";
 import ProductCard from "../ProductCard/ProductCard";
@@ -13,14 +15,17 @@ const Products = ({ products }) => {
     "RAW MATERIALS",
     "PATTERN",
   ];
-
+  const [isFiltersOpen, setIsFiltersOpen] = useState(true);
+  const handleFiltersToggle = () => {
+    setIsFiltersOpen(!isFiltersOpen);
+  }
   return (
     <div>
-      <Filters />
+      <Filters  handleFiltersToggle={handleFiltersToggle} isFiltersOpen={isFiltersOpen} />
       <div className={styles.ProductsContainer}>
         {/* Filters */}
         <div className={styles.ProductsFiltersContainer}>
-          {FilterList.map((item, index) => (
+          { isFiltersOpen && FilterList.map((item, index) => (
             <FilterItemCard key={index} title={item} />
           ))}
         </div>
